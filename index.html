@@ -1,0 +1,839 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+ <link type="text/css" rel="stylesheet" href="css/font-awesome.css"  media="screen,projection"/>
+ <link rel="icon" href="images/favicon.ico"  >
+ <link type="text/css" rel="stylesheet" href="css/animate.min.css"  media="screen,projection"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title> Team AUV | IIT Kharagpur </title>
+ </head>
+ <body>
+<!-- START PRELOADER -->
+
+<div id="preloader">
+<div id="status">
+<h6 class="blink_me1" style="font-size: 20px;text-align: center; width: 100%;">Team AUV - IIT Kharagpur </h6>
+<div class="row">
+<div class="col s8 offset-s2 m6 offset-m3 l4 offset-l4 red darken-4"> <img src="images/logo_white.png" style="width: 100%; height: 100%;"> </div>
+</div>
+<div class="progress">
+<div class="indeterminate"></div>
+</div></div>
+</div>
+
+ <!-- END PRELOADER -->
+ <!-- START NAVBAR -->
+
+ <div class="navbar-fixed">
+ <nav>
+ <div class="nav-wrapper red darken-4">
+ <a  style="margin-left: 0px;color: white;padding: 5px;padding-top: 10px; padding-bottom: 10px; " class="left"><img data-src="images/logo_white.png" width="120px" height="40px"> </a>
+ <a href="#!" style="color: white;margin-right: 40px; " data-activates="mobile-demo" class="waves waves-effect waves-dark right button-collapse"><i class="material-icons" style="font-size: 26px;">menu</i></a>
+  <a class="waves waves-effect waves-dark right" style="color: white;margin-right: 20px; " href="https://www.facebook.com/auviitkgp" target="_blank"><i class="fa fa-facebook" style="font-size: 26px;"></i></a>
+      <a class="waves waves-effect waves-dark right"  style="color: white;margin-right: 20px; " href="https://twitter.com/auviitkgp" target="_blank"><i class="fa fa-twitter" style="font-size: 26px;"></i></a>
+      <a class="waves waves-effect waves-dark right"  style="color: white;margin-right: 20px; " href="https://www.youtube.com/channel/UCwTWLZKImXf5QvzDMk3bD5g?feature=watch" target="_blank"><i class="fa fa-youtube" style="font-size: 26px;"></i></a>
+      <a class="waves waves-effect waves-dark right"  style="color: white;margin-right: 20px; " href="https://github.com/auviitkgp" target="_blank"><i class="fa fa-github" style="font-size: 26px;"></i></a>
+
+  <ul id="dropdown1" class="dropdown-content white lighten-6" style="margin-top: 63px;">
+      <li ><a style=" font-size: 14px;color: white;" href="#mechanical" class="modal-trigger">Mechanical Overview</a></li>
+         <li class="divider"></li>
+      <li ><a style=" font-size: 14px;color: white;" href="#electrical" class="modal-trigger">Electrical Overview</a></li>
+   <li class="divider"></li>
+  <li ><a style=" font-size: 14px;color: white;" href="#software" class="modal-trigger">Software Overview</a></li>
+</ul>
+    <ul class="left hide-on-med-and-down" id="menu1">
+      <li><a class="waves waves-effect waves-dark scroll" style="color: white; font-size: 14px;" href="#home">HOME</a></li>
+       <li><a class="waves waves-effect waves-dark scroll" style="color: white; font-size: 14px;" href="#aboutus">ABOUT US</a></li>
+      <li><a class="dropdown-button" style="color: white; font-size: 14px;" href="#!" data-activates="dropdown1">KRAKEN 3.0 <span class="new badge"></span> <i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="waves waves-effect waves-dark scroll" style="color: white; font-size: 14px;" href="#comp">COMPETITIONS</a></li>
+      <li><a class="waves waves-effect waves-dark scroll" style="color: white; font-size: 14px;" href="#sponsors">SPONSORS</a></li>
+      <li><a class="waves waves-effect waves-dark scroll" style="color: white; font-size: 14px;" href="#gallery">GALLERY</a></li>
+      <li><a class="waves waves-effect waves-dark scroll" style="color: white; font-size: 14px;" href="#contact">CONTACT US</a></li>
+       <li><a class="waves waves-effect waves-dark scroll" style="color: white; font-size: 14px;" href="#team">TEAM</a></li>
+    </ul>
+
+    <ul class="side-nav" id="mobile-demo" style="border-left: 3px solid #b71c1c;">
+     <a  style="margin-left: 0px;background-color: #b71c1c;padding: 5px; width: 100%;" class=" left"><img data-src="images/logo_white.png" width="120px" height="40px"> </a>
+     <br>
+     <div class="divider" style="margin-top: 10px;"></div>
+     <li><a class="waves waves-effect waves-dark scroll" style="color: black; font-size: 14px;" href="#home"><b>HOME</b></a></li>
+     <li><a class="waves waves-effect waves-dark scroll" style="color: black; font-size: 14px;" href="#aboutus"><b>ABOUT US</b></a></li>
+     <li class="no-padding">
+     <ul class="collapsible collapsible-accordion">
+        <li>
+          <a class="collapsible-header" style="font-size: 14px; color: black;"><b>KRAKEN 3.0 </b><span class="new badge"></span><i class="fa fa-caret-down right"></i></a>
+          <div class="collapsible-body">
+            <ul>
+               <li ><a style=" font-size: 14px;color: black;" href="#mechanical" class="modal-trigger"><b>Mechanical Overview</b></a></li>
+         <li class="divider"></li>
+
+      <li ><a style=" font-size: 14px;color: black;" href="#electrical" class="modal-trigger"><b>Electrical Overview</b></a></li>
+         <li class="divider"></li>
+
+   <li class="divider"></li>
+  <li ><a style=" font-size: 14px;color: black;" href="#software" class="modal-trigger"><b>Software Overview</b></a></li>
+    
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li><a class="waves waves-effect waves-dark scroll" style="color: black; font-size: 15px;" href="#comp"><b>COMPETITIONS</b></a></li>
+    <li><a class="waves waves-effect waves-dark scroll" style="color: black; font-size: 15px;" href="#sponsors"><b>SPONSORS</b></a></li>
+    <li><a class="waves waves-effect waves-dark scroll" style="color: black; font-size: 15px;" href="#gallery"><b>GALLERY</b></a></li>
+    <li><a class="waves waves-effect waves-dark scroll" style="color: black; font-size: 15px;" href="#contact"><b>CONTACT US</b></a></li>
+    <li><a class="waves waves-effect waves-dark scroll" style="color: black; font-size: 15px;" href="#team"><b>TEAM</b></a></li>
+
+      </div>
+    </nav>
+  </div>
+
+<!--END NAVBAR -->
+<!-- START SLIDES -->
+<h3 id="home" class="blink_me1" style="width: 100%; text-align: center; padding: 10px;"> TEAM AUV , IIT KHARAGPUR </h3>
+   <div class="slider">
+    <ul class="slides">
+      <li>
+        <img data-src="images/feed/auv1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+         <h5>KRAKEN - 1.0</h5>
+         <h6 class="light white-text" style="font-size: 16px;">Kraken-1.0 during actual run.</h6>
+        </div>
+      </li>
+      <li>
+        <img data-src="images/feed/auv2.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h5>KRAKEN - 1.0</h5>
+          <h5 class="light white-text" style="font-size: 16px;">The first version of Kraken with torpedo shaped hull.</h5>
+        </div>
+      </li>
+      <li>
+        <img data-src="images/feed/auv3.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h5>KRAKEN - 1.0</h5>
+          <h5 class="light white-text" style="font-size: 16px;">Kraken 1.0 during actual run.</h5>
+        </div>
+      </li>
+      <li>
+        <img data-src="images/feed/auv4.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h5>KRAKEN - 2.0</h5>
+          <h5 class="light white-text" style="font-size: 16px;">Second version of Kraken with new chassis.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<!-- END SLIDES -->
+<!-- START ABOUT US -->
+
+
+
+<div id="aboutus" class="row" style="margin-top: 10px; padding: 20px;">
+ <h3 style="width: 100%; text-align: center;"> ABOUT US</h3> <br><br>
+ 
+<div class="col s12 m12 l7 offset-l1">
+ <ul class="collapsible popout" data-collapsible="accordion">
+  <li>
+    <div class="collapsible-header red darken-4 white-text active"><i class="material-icons">live_help</i>Who are we?</div>
+    <div class="collapsible-body" style="border: 3px solid #b71c1c; border-top: none;"><p>The IIT Kharagpur Autonomous Underwater Vehicle Team (Team AUV) is a student group from IIT Kharagpur , India - working in the field of autonomous underwater robotics. </p></div>
+  </li>
+  <li>
+    <div class="collapsible-header red darken-4 white-text active"><i class="material-icons">live_help</i>What do we do?</div>
+    <div class="collapsible-body" style="border: 3px solid #b71c1c; border-top: none;"><p>We design and build fully autonomous underwater robots for research and competitive purposes.</p></div>
+  </li>
+  <li>
+    <div class="collapsible-header red darken-4 white-text active"><i class="material-icons">live_help</i>What is our objective?</div>
+    <div class="collapsible-body" style="border: 3px solid #b71c1c; border-top: none;"><p>Our prime objective is to take part in the annual AUVSI ROBOSUB held in San Diego, California. This competition provides an opportunity for teams and industries across the globe to showcase their capabilities in underwater robotics. As part of the competition, a team is supposed to build and design a fully functional AUV which entails designing and manufacturing robust systems in the domains of mechanical, electrical and software engineering. Being a part of Team AUV, the team members apply their conceptual understanding and creativity in multiple dimensions of engineering.</p></div>
+  </li>
+  <li>
+    <div class="collapsible-header red darken-4 white-text active"><i class="material-icons">live_help</i>What are our past records?</div>
+    <div class="collapsible-body" style="border: 3px solid #b71c1c; border-top: none;"><p>TEAM AUV traces its origin to December, 2010 when a group of students from varied engineering streams like computer science, electrical, mechanical and ocean engineering came together to deploy their skills . Since then, we have been involved in the development of autonomous underwater vehicles (AUVs).</p><p> Our insight into the challenges of underwater navigation like depth pressure, water leakage, buoyancy and stability related issues, poor underwater lightning etc. helped us to come up with efficient solutions. The team thus developed its first vehicle "Kraken 1.0" in June 2011, overcoming hurdles like cost, manufacturability, efficient design and limited time. We then went on to win the first ever national event on AUVs at NIOT and participated in the 14th international AUVSI ROBOSUB Competition in San Diego, USA. </p><p>As a first time participant, the team matched up to more established teams and cleared the qualifying round. The performance and efforts of the team were recognized and appreciated by the judges. As a technology and innovation driven team, we are determined to develop cutting-edge technology to overcome challenges and perform better. With better resources, experience and the able guidance of the research group involved in the development of the very first AUV of India, the team is working with zeal and enthusiasm to surpass the achievements of previous years. Team is presently developing AUV for upcoming ROBOSUB competiton.</p></div>
+  </li>
+  
+</ul>
+</div>
+<div class="col s12 m12 l3">
+                    <a class="twitter-timeline" href="https://twitter.com/auviitkgp" data-widget-id="439755179924021248">
+                        <small>
+                            <strong>TWEETS BY @auviitkgp</strong>
+                        </small>
+                    </a>
+                    <script>
+                    ! function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");
+                    </script>
+
+</div>
+
+
+
+</div>
+
+<!-- END ABOUT US -->
+<!-- START KRAKEN3.0 -->
+
+<div id="software" class="modal bottom-sheet modal-fixed-footer " >
+    <div class="modal-footer">
+<a href="#electrical" class="left modal-action modal-close modal-trigger waves-effect waves-light btn red darken-4"> <i class="fa fa-chevron-left" style="font-size: 15px;" aria-hidden="true"></i>&nbsp;ELECTRICAL </a>
+<a href="#mechanical" class="right modal-action modal-close modal-trigger waves-effect waves-light btn red darken-4"> MECHANICAL&nbsp;<i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i></a>
+    </div>
+
+  <div class="modal-content" >
+      <h4> KRAKEN 3.0     <a href="#!" class="right modal-action modal-close waves-effect waves-dark btn-flat"><i class="material-icons" style="color: #b71c1c; font-size: 30px;">close</i></a></h4>
+    <h6> <b>SOFTWARE OVERVIEW</b> </h6>
+    
+    
+    
+<div class="row"><div class="col s12 m9 l9">
+<p>
+   We have followed the modular approach in making our software, which helps us in tuning and testing the capabilities and tasks separately. ROS (Robot operating system) has been adopted for software development and synchronization ROS works on a publisher-subscriber based architecture by means of passing messages. Different packages have been built on the ROS Stack. ROS helped us to develop modular software with different tasks kept at different ROS nodes. All the nodes have been categorized into 4 different type of nodes.
+</p>
+<i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i> Control and Movement <br>
+<i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i> Image Processing <br>
+<i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i> Task Planner <br>
+<i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i> Sensor Data Acquisition<br>
+
+</div>
+<div class="col s12 m3 l3">
+ <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN 3.0 - SOFTWARE OVERVIEW" class="materialboxed waves-effect waves-block waves-light" data-src="images/kraken3.0/overview_soft1.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">TASK FLOW</div>
+            
+          </div>
+    </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m9 l9"><p>
+              In this first module, basic maneuvering functions are written for forward, turn and heave. The Forward function has code for heading control for which it interacts with the sensors interfacing module. We have implemented a PID controller to achieve proper forward motion. It accepts a positive value for forward motion and negative value for reverse motion. The Turn function implements a self-designed control strategy to get accurate turns. Here theta value is obtained from magnetic heading value from the IMU. This function accepts positive value for Counter Clockwise turn and negative for Clockwise turn. For control, the software uses simple and effective heuristic algorithms on top of classic Proportional Integral Derivative (PID) controller. 
+The navigation system is dependent on AHRS implementation. In this application, the IMU is used only to measure vehicle attitude (roll, pitch, and possibly heading). Sensors like a pendulum pot, measure roll and pitch, but have a relatively narrow response. User friendly graphical interface has been created for debugging and visualization purpose.</p>
+
+            </div>
+<div class="col s12 m3 l3">
+ <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN 3.0 - SOFTWARE OVERVIEW" class="materialboxed waves-effect waves-block waves-light" data-src="images/kraken3.0/overview_soft2.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">CONTROLLER</div>
+            
+          </div>
+    </div>
+
+          </div>
+          <div class="row">
+            <div class="col s12 m9 l9"><p>
+              The images are acquired from the cameras using the camera interfacing nodes. These images are then thresholded using their HSV (Hue Saturation Value) values. HSV values for objects and markers are pre-calibrated and using the thresholding the similar color objects are isolated and filtered by shape and size constraints. 
+We have developed GUI applications to pre-calibrate the thresholding values and check the output of the applied filters and various constraints. Once, a suitable fit is obtained, parameters like centroid and orientation are sent back to Task Planner module to generate the appropriate control commands. 
+Underwater Images suffer from Non Uniform Lighting, Low Contrast and Diminished Colors Image enhancement techniques were used to overcome degraded image.</p>
+
+            </div>
+<div class="col s12 m3 l3">
+ <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN 3.0 - SOFTWARE OVERVIEW" class="materialboxed waves-effect waves-block waves-light" data-src="images/kraken3.0/overview_soft3.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">GUI</div>
+            
+          </div>
+    </div>
+
+          </div>
+          <div class="row">
+            <div class="col s12 m9 l9"><p>
+              This module knows about the different tasks to be performed in the full mission and the sequence of the occurrence This module calls the appropriate image processing function to isolate either a buoy, marker, L shaped obstacle, etc as per the task to be done. After getting the values of centroid and orientation, control commands are generated and control module executes the motion while getting feedback from the sensor module. An intelligent algorithm is required to perform each task task successful. Task planner is also responsible for managing run time in the most efficient way. A timeout is set for each task during a single mission run.</p>
+
+            </div>
+<div class="col s12 m3 l3">
+ <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN 3.0 - SOFTWARE OVERVIEW" class="materialboxed waves-effect waves-block waves-light" data-src="images/kraken3.0/overview_soft4.png">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">PATH GENERATION</div>
+            
+          </div>
+    </div>
+
+          </div>
+  
+    </div>
+  </div>
+
+<div id="mechanical" class="modal bottom-sheet modal-fixed-footer " >
+    <div class="modal-footer">
+<a href="#software" class="left modal-action modal-close modal-trigger waves-effect waves-light btn red darken-4"> <i class="fa fa-chevron-left" style="font-size: 15px;" aria-hidden="true"></i>&nbsp;SOFTWARE </a>
+<a href="#electrical" class="right modal-action modal-close modal-trigger waves-effect waves-light btn red darken-4"> ELECTRICAL&nbsp;<i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i></a>
+    </div>
+
+  <div class="modal-content" >
+      <h4> KRAKEN 3.0     <a href="#!" class="right modal-action modal-close waves-effect waves-dark btn-flat"><i class="material-icons" style="color: #b71c1c; font-size: 30px;">close</i></a></h4>
+    <h6> <b>MECHANICAL OVERVIEW</b> </h6>
+    
+    
+    
+<div class="row"><div class="col s12 m12 l12">
+<p>
+   The body of the AUV is designed to implement a differential motion based control with two heave and two surge thrusters. The vehicle consists of a Main Hull, IMU enclosure and 4 Thrusters all mounted onto an Aluminium Frame. The Main Hull will have a diameter of 26 cm, and it will house the various electronic components and battery. The thrusters are placed so as to provide maximum control. All the thrusters have been accommodated as close as possible to the corresponding planes of center of gravity so as to minimize the unbalanced roll, pitch and yaw moments generated due to thrusters. The frame is made up of L cross section bars. The frame is implemented to provide rigidity and strength, and also to provide protection to the main hull in case the AUV collides with a wall in the arena. Enough clearance has been provided between the end cap and the sway thruster in order to accommodate water tight connectors to be attached to end cap. The design of the torpedo is made such that the CG(center of gravity) and the CB(center of buoyancy) coincides latitudinally ,to achieve stable equilibrium. The fin area and its distance from the CG of the torpedo is chosen such that it has the maximum stabilizing effect. Moreover drag analysis of the designed torpedo has been done using ANSYS FLUENT to achieve a streamlined design.
+
+
+</p>
+</div>
+
+          
+          
+    
+          </div>
+          <div class="row">
+           <div class="col s12 l3 m3 card">
+            <div class="card-image">
+              <img data-caption="KRAKEN 3.0 - MECHANICAL OVERVIEW" class="materialboxed waves-effect waves-block waves-light" data-src="images/kraken3.0/overview_mech1.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">AUV CAD MODEL</div>
+            
+          </div>
+ <div class="col s12 m3 l3 card">
+            <div class="card-image">
+              <img data-caption="KRAKEN 3.0 - MECHANICAL OVERVIEW" class="materialboxed waves-effect waves-block waves-light" data-src="images/kraken3.0/overview_mech2.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">EXPLODED VIEW</div>
+            
+          </div>
+          <div class="col s12 m3 l3 card">
+            <div class="card-image">
+              <img data-caption="KRAKEN 3.0 - MECHANICAL OVERVIEW" class="materialboxed waves-effect waves-block waves-light" data-src="images/kraken3.0/overview_mech3.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">TORPEDO</div>
+            
+          </div>
+          <div class="col s12 m3 l3 card">
+            <div class="card-image">
+              <img data-caption="KRAKEN 3.0 - MECHANICAL OVERVIEW" class="materialboxed waves-effect waves-block waves-light" data-src="images/kraken3.0/overview_mech4.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">FLUENT ANALYSIS</div>
+            
+          </div>
+
+          </div>
+        
+        
+  
+    </div>
+  </div>
+
+
+
+<div id="electrical" class="modal bottom-sheet modal-fixed-footer " >
+    <div class="modal-footer">
+<a href="#mechanical" class="left modal-action modal-close modal-trigger waves-effect waves-light btn red darken-4"> <i class="fa fa-chevron-left" style="font-size: 15px;" aria-hidden="true"></i>&nbsp;MECHANICAL </a>
+<a href="#software" class="right modal-action modal-close modal-trigger waves-effect waves-light btn red darken-4"> SOFTWARE&nbsp;<i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i></a>
+    </div>
+
+  <div class="modal-content" >
+      <h4> KRAKEN 3.0     <a href="#!" class="right modal-action modal-close waves-effect waves-dark btn-flat"><i class="material-icons" style="color: #b71c1c; font-size: 30px;">close</i></a></h4>
+    <h6> <b>ELECTRICAL OVERVIEW</b> </h6>
+    
+    
+
+<div class="row"><div class="col s12 m12 l6">
+<br> <i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i><b> <u>SENSORS :</u></b></p> <br>
+<table class="bordered">
+         <tbody>
+          <tr><td><b>Depth</b></td><td>Paroscientific, Inc. Digiquartz Pressure Instrumentation Series 8WD Intelligent Depth Sensor</td></tr>
+          <tr><td><b>Velocity</b></td><td>LinkQuest's NavQuest 600 Micro DVL</td></tr>
+          <tr><td><b>IMU</b></td><td>Xsens Motion Technologies MT9-B Moisture sensor</td></tr>
+        </tbody>
+      </table>
+
+<p>
+   <b>Inertial Measurement Unit : </b>An IMU with 9 output data (3 axis gyroscopic value, 3 Axis accelerometer, and 3 Axis magnetometer data) will be used to get feedback in the form of Heading, Acceleration and Euler angles. 
+</p>
+<p><b>Doppler Velocity Log (DVL) : </b>If required for better accuracy and performance Kraken will be using DVL. DVL uses four Sonars to measure the velocity of AUV in water. By integrating the velocity information, DVL will also give the XYZ co-ordinate information with respect to its initial Point. The DVL also gives roll, pitch and yaw values.</p> 
+
+<p><b>Depth Sensor :</b> Depth sensor is a piezoelectric pressure transducer which will provide depth data from water surface. </p>
+
+<p><b>Camera :</b> Our AUV is equipped with two cameras, one forward facing and a second one facing down. They provide us with 8-bit color image.</p> 
+
+<br><i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i><b> <u>EMBEDDED SYSTEMS :</u></b> <p>ATmega16, USB-ISS  Multifunction USB Communications Module, ADAM 4024</p><p>
+
+The embedded system is used mostly for sensing and actuating the mechanisms. ATmega16 is used to interface a current sensor. The status of moisture sensor is also monitored via it. It also connects to a LCD screen which displays the current value and the status of moisture sensor. 
+To communicate with the outside word such as to communication with mechanisms LED-LDR circuit is used. One more ATmega16 monitors the LDR and on receiving the specified code actuated the desired mechanisms.</p>
+
+
+</div>
+<div class="col s12 m12 l6">
+
+
+<br><i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i><b> <u>VISION :</u></b> 
+<table class="bordered">
+         <tbody>
+          <tr><td><b>Forward</b></td><td>Logitech HD C310 camera</td></tr>
+          <tr><td><b>Bottom</b></td><td>Microsoft LifeCam HD 3000</td></tr>
+        </tbody>
+      </table>
+<p>Kraken is powered with two cameras. Front vision is acquired via Logitech HD C310 camera and Bottom vision is captured via Microsoft LifeCam HD 3000. Currently the front and bottom camera is mounted inside the main hull but soon we are going to mount the cameras outside the hull. We also will be shifting to stereo camera for the front vision so as we can get an estimate of an object from the vehicle.</p>
+
+<br><i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i><b> <u>POWER DISTRIBUTION :</u></b> 
+<p>4 X Lithium Ion (11.1, 3000mAh)</p><p>
+1 X Lithium Ion (24V, 9000mAh)</p>
+<p>
+Kraken is powered by 4 Lithium ion battery (11.1V, 3000mAh) and 1 Lithium Ion Battery (24V, 9000mAh). 4 Lithium Ion battery powers the thrusters. This path is completely independent of sensors to reduce any unwanted noise. 
+The other battery is connects to the power converters which powers the motherboard. This battery also powers sensors after passing through a DC-DC converter. </p><p>
+Both of the batteries have monitoring system which does coulomb counting and makes the system to shut down when it runs low.</p>
+
+<br><i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i><b> <u>PROPULSION :</u></b> 
+<p>4 X Seabotix BTD 150 </p>
+<p>4 X Technadyne </p>
+<br><i class="fa fa-chevron-right" style="font-size: 15px;" aria-hidden="true"></i><b> <u>MOTHERBOARD :</u></b> 
+<p> Intel D425K Mini ITX Mother Board </p>
+</div>
+
+</div>
+
+          
+          
+    
+          </div>
+         
+        
+  
+    </div>
+  </div>
+</div>
+
+<!-- END KRAKEN3.0 -->
+
+<!-- START COMPETITIONS -->
+<div id="comp" class="row" style="padding: 20px;">
+ <h3 style="width: 100%; text-align: center;"> COMPETITIONS</h3> <br><br>
+<div class="row">
+    <div class="col s12">
+      <ul class="tabs" >
+        <li class="tab col s6" ><a class="active" style="color: #000;" href="#robosub">(1) ROBOSUB</a></li>
+        <li class="tab col s6" ><a href="#sauce" style=" color: #000;">(2) Sauc-E</a></li>
+      </ul>
+    </div>
+    <div id="robosub" class="col s12" style="border: 1px solid #b71c1c; border-top: 0px solid #000;padding: 15px;">
+    <div class="row">
+    <div class="col s12 m10 l10"><p>
+ROBOSUB , AUVSI (Association for Unmanned Vehicles System International) is an international organization based in U.S. , established in 1972 with an aim to promote unmanned systems. The organization has a membership of more than 6000 people from more than 55 countries. </p><p>RoboSub is one of the major competitions organized by AUVSI Foundation. Co-sponsored by the U.S. Department of Navy, AUVSI Foundation, BOEING, Intel, SEABOTIX, Solid Works, Battelle, SPAWAR, NORTHROP GRUMMAN and other big names in the market, the event is held in San Diego every year. The competition is held every year at TRANSDEC facility, San Diego. The event is closely monitored by high personnel, with Mayor of the city visiting the arena last year. The semi-finals and finals are open to public and the final is streamed live on Internet.</p><p> With around 30 participating teams from as diversified nationalities as Spain, China, Japan, Ireland, Canada, U.S.A., India etc. and belonging to universities as well as naval academies, the competition provides an excellent way to display our skills and advancements with huge publicity and media exposure.</p></div>
+<div class="col s12 m2 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="ARENA - ROBOSUB" class="materialboxed waves-effect waves-block waves-light" data-src="images/competitions/robosub_field.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">ROBOSUB ARENA</div>
+            
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="ARENA - ROBOSUB" class="materialboxed waves-effect waves-block waves-light" data-src="images/competitions/robosub_obstacles.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">ROBOSUB ARENA</div>
+            
+          </div>
+        </div>
+    </div></div>
+<div id="sauce" class="col s12" style="border: 1px solid #b71c1c; border-top: 0px solid #000;padding: 15px;">
+    <div class="row">
+    <div class="col s12 m10 l10"><p>
+Held since 2006, SAUC-E challenges the next generation of engineers to design and build an autonomous underwater vehicle (AUV) capable of performing realistic missions. The event is designed to encourage students to think about underwater technology and related applications while fostering innovation and technology. The event is being organized by  NATO Undersea Research Centre.</p></div>
+<div class="col s12 m2 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="ARENA - SAUC-E" class="materialboxed waves-effect waves-block waves-light" data-src="images/competitions/sauce_arena.png">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">Sauc-E ARENA</div>
+            
+          </div>
+          
+        </div>
+    </div></div>
+  </div>
+  </div>
+
+<!-- END COMPETITIONS -->
+<!-- START SPONSORS -->
+
+<div id="sponsors" class="row" style="padding: 20px;">
+ <h3 style="width: 100%; text-align: center;"> SPONSORS</h3> <br><br>
+  <div class="row">
+          
+        <div class="col s12 m6 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="SPONSOR - ALLIED VISION TECHNOlOGIES" class="materialboxed waves-effect waves-block waves-light" data-src="images/sponsor/avt.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">AVT</div>
+            
+          </div>
+        </div>
+
+         <div class="col s12 m6 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="SPONSOR - KELLER" class="materialboxed waves-effect waves-block waves-light" data-src="images/sponsor/logo_keller.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">KELLER</div>
+            
+          </div>
+        </div>
+
+        <div class="col s12 m6 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="SPONSOR - IIT KHARAGPUR" class="materialboxed waves-effect waves-block waves-light" data-src="images/sponsor/iitkgp.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">IIT KHARAGPUR</div>
+            
+          </div>
+        </div>
+
+        <div class="col s12 m6 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="SPONSOR - SOLIDWORKS" class="materialboxed waves-effect waves-block waves-light" data-src="images/sponsor/logo_solidworks.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">SOLIDWORKS</div>
+            
+          </div>
+        </div>
+
+        <div class="col s12 m6 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="SPONSOR - SPARTON" class="materialboxed waves-effect waves-block waves-light" data-src="images/sponsor/logo_sparton.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">SPARTON</div>
+            
+          </div>
+        </div>
+
+        <div class="col s12 m6 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="SPONSOR - PNI" class="materialboxed waves-effect waves-block waves-light" data-src="images/sponsor/pni.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">PNI</div>
+            
+          </div>
+        </div>
+
+        <!--div class="col s12 m6 l2">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="SPONSOR - PORTWELL" class="materialboxed waves-effect waves-block waves-light" data-src="images/sponsor/portwell_logo.jpg">
+              </div>
+             <div class="card-content" style="width: 100%; padding: 3px;text-align: center; background-color: black; color: white; font-size: 15px;">PORTWELL</div>
+            
+          </div>
+        </div-->
+
+       
+     
+      </div>
+  
+ 
+ <div class="row">
+        <div class="col s12 m6 l6">
+        <div class="card-panel red darken-4">
+          <span class="white-text">To achieve success in our goal , we rely on the generous support of our sponsors. Your kind donation will help us in purchasing costly sensor, hardware and fabrication of AUV. Sponsorship money will also support us in participating in International ROBOSUB Competition to be held in San Diego, USA.We would like to thank our sponsors for supporting the technological development in underwater Robotics . We will ensure to provide special benefits to our sponsors and would like to continue long term association.
+          </span>
+        </div>
+        <div class="card-panel red darken-4">
+          <span class="white-text">If you would like to sponsor us with equipment, sensors or cash sponsorship, do drop us an email at contact.auv.kgp@gmail.com
+          </span>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l6">
+ <ul class="collapsible popout" data-collapsible="accordion">
+  <li>
+    <div class="collapsible-header red darken-4 white-text "><i class="material-icons">live_help</i>Why sponsor us?</div>
+    <div class="collapsible-body" style="border: 3px solid #b71c1c; border-top: none;"><p>(1) Promoting robotics research among undergraduate students.<br>(2) 
+We are one of the 4 Indian Teams which participates in international ROBOSUB, held at San Diego each year.<br>(3) 
+The team was winner of SAVe 2011(student AUV competition) organized by NIOT, ministry of earth sciences.<br>(4) 
+AUV shall be a big boost to your Corporate Social Responsibility, for supporting and nurturing a national level team which represents our country internationally. </p></div>
+  </li>
+  <li>
+    <div class="collapsible-header red darken-4 white-text active"><i class="material-icons">live_help</i>Sponsorship Benefits</div>
+    <div class="collapsible-body" style="border: 3px solid #b71c1c; border-top: none;"><p>(1) Company visibility at the AUVSI/ONR ROBOSUB competition<br>(2) 
+Special Distinction in media coverage<br> (3)
+Company logo on competition vehicle and posters <br>(4) 
+Company information and logo on the website<br>(5)
+Company name on the team uniform<br>(6)
+An Asscociation with IIT Kharagpur<br>(7)
+Recognition in time to time workshops and exhibitions by team at notable events such as the Alumni meet.
+</p></div>
+  </li>
+  
+</ul>
+</div>  
+
+      </div>
+</div>
+
+<!-- END SPONSORS -->
+<!-- START GALLERY -->
+  
+          
+<div id="gallery" class="row" style="padding: 20px;">
+ <h3 style="width: 100%; text-align: center;"> GALLERY</h3> <br><br>
+ <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN-1" class="materialboxed waves-effect waves-block waves-light" data-src="images/gallery/k1.1.jpg">
+              </div>
+            
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN-1" class="materialboxed waves-effect waves-block waves-light" data-src="images/gallery/k1.2.jpg">
+              </div>
+            
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN-1" class="materialboxed waves-effect waves-block waves-light" data-src="images/gallery/k1.3.jpg">
+              </div>
+            
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN-1" class="materialboxed waves-effect waves-block waves-light" data-src="images/gallery/k1.4.jpg">
+              </div>
+            
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN-2" class="materialboxed waves-effect waves-block waves-light" data-src="images/gallery/k2.1.jpg">
+              </div>
+            
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img data-caption="KRAKEN-2" class="materialboxed waves-effect waves-block waves-light" data-src="images/gallery/k2.2.jpg">
+              </div>
+            
+          </div>
+        </div>
+      </div>
+</div>
+<!--END GALLERY -->
+<!-- START CONTACT US -->
+
+<div id="contact" class="row" style="padding: 20px;">
+ <h3 style="width: 100%; text-align: center;"> CONTACT US</h3> <br><br>
+ <form class="col s12 m12 l6" action="//formspree.io/ikat.kgp@gmail.com" method="POST" style="border: 0px solid #b71c1c;">
+  <div class="row">
+    <div class="input-field col s12 m6">
+      <i class="material-icons prefix">account_circle</i>
+      <input id="icon_prefix" name="name" type="text" class="validate">
+      <label for="icon_prefix">Full Name</label>
+    </div>
+    <div class="input-field col s12 m6">
+      <i class="material-icons prefix">phone</i>
+      <input id="icon_telephone" name="number" type="tel" class="validate">
+      <label for="icon_telephone">Mobile number</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+     <i class="material-icons prefix">email</i>
+     <input id="email" type="email" name="_replyto" class="validate">
+     <label for="email" data-error="Wrong" data-success="Right">Email ID</label>
+   </div>
+ </div>
+
+
+      
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">mode_edit</i> <br>
+          <textarea id="icon_prefix" class="materialize-textarea" name="message" type="text"></textarea>
+          <label for="icon_prefix"> Your message</label>
+        </div>
+  <button class="btn waves-effect waves-light col s8 offset-s2 l4 offset-l4 m6 offset-m3 red darken-4" type="submit" name="action">Submit    <i class="material-icons right">send</i>
+        </button>
+        <div class="row"></div>
+      </form>
+    </div>
+
+
+
+
+
+    <div class="col s12 m12 l6">
+      <ul class="collection">
+        <li class="collection-item avatar">
+         <i class="material-icons circle red darken-4"  style="font-size: 25px;">location_on</i>
+         <span class="title"><h5 style="font-size: 20px;">  PHYSICAL ADDRESS   </h5></span>
+         <p>Indian Institute of Technology - Kharagpur <br>
+          Kharagpur <br> West Bengal <br> India - 721302
+        </p>
+
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle red darken-4"  style="font-size: 25px;">call</i>
+        <span class="title"><h5 style="font-size: 20px;">  CONTACT NUMBER   </h5></span>
+        <p>+91 - 74999 35505
+       </p>
+
+     </li>
+     <li class="collection-item avatar">
+      <i class="material-icons circle red darken-4" style="font-size: 25px;">email</i>
+      <span class="title"><h5 style="font-size: 20px;">  EMAIL US   </h5></span>
+      <p>ikat.kgp@gmail.com
+      </p>
+
+    </li>
+    <li class="collection-item avatar">
+      <i class=" material-icons circle red darken-4 "  style="font-size: 25px;">language</i>
+      <span class="title"><h5 style="font-size: 20px;">  INSTITUTE's OFFICIAL WEBSITE   </h5></span>
+      <p>www.iitkgp.ac.in 
+      </p>
+
+    </li>
+    
+  </ul>
+
+</div>
+
+</form>
+</div>
+<!-- END CONTACT US -->
+<!-- START TEAM -->
+<div id="team" class="row" style="padding: 20px;">
+ <h3 style="width: 100%; text-align: center;"> OUR TEAM</h3> <br><br>
+
+
+
+ <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+  <div class="card col s12 m6 l2"><div class="card-image waves-effect waves-block waves-light">
+ <img class="activator" data-src="images/team/software/nevin.jpg">
+ <span class="card-title " style="text-align: center; padding: 3px;font-size: 17px;width: 100%;background-color: rgba(0,0,0,1);"><a class="activator">Nevin Valsaraj</a></span></div>
+ <div class="card-content"><span class="card-title"><div class="chip activator">Software Team Head</div></span>
+ </div><div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span><p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>
+
+
+</div>
+
+
+  
+
+
+
+
+
+<!-- END TEAM -->
+<!-- START FOOTER -->
+
+<footer class="page-footer red darken-4">
+
+    <div class="row">
+      <div class="col l12 s12" style="text-align: center;">
+        <h5 class="white-text">Copyright 2016</h5>
+        <p class="grey-text text-lighten-4">All Rights Reserved by Team AUV , IIT KHARAGPUR. 
+      </div>
+      
+    
+  </div>
+
+</footer>
+<!-- END FOOTER -->
+
+ <script type="text/javascript" src="js/query.js"></script>
+ <script type="text/javascript" src="js/jquery.textillate.js"></script>
+ <script type="text/javascript" src="js/jquery.lazy.js"></script>
+ <script type="text/javascript" src="js/jquery.lettering.js"></script>
+ <script type="text/javascript" src="js/materialize.js"></script>
+ <script type="text/javascript" src="js/custom.js"></script>
+
+    </body>
+  </html>
